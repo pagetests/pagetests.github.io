@@ -1,0 +1,11 @@
+{
+  "Instance1": {
+    "best_cost": 127530.4,
+    "team": "TeamA"
+  },
+  "Instance2": {
+    "best_cost": 215903.1,
+    "team": "TeamB"
+  }
+}
+
