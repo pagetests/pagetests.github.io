@@ -1,15 +1,88 @@
 {
-  "X-n101-k25": {
-    "best_cost": 27591,
-    "team": "Vasco da Gama-RJ"
-  },
-  "X-n106-k14": {
-    "best_cost": 26362,
-    "team": "Botafogo-PB"
-  },
-  "X-n110-k13": {
-    "best_cost": 14971,
-    "team": "Sousa-PB"
-  }
+  "current_time": 2485000,
+  "X-n101-k25": [
+    {
+      "bks_value": 28950,
+      "submission_date": "2025-07-05T14:35:22",
+      "timestamp": 210000,
+      "lead_time": 2.31,
+      "team": "Botafogo-PB"
+    },
+    {
+      "bks_value": 28120,
+      "submission_date": "2025-07-12T10:05:17",
+      "timestamp": 712000,
+      "lead_time": 6.56,
+      "team": "Sousa-PB"
+    },
+    {
+      "bks_value": 27591,
+      "submission_date": "2025-07-29T15:02:48",
+      "timestamp": 2466000,
+      "lead_time": 20.22,
+      "team": "Vasco da Gama-RJ"
+    }
+  ],
+  "X-n106-k14": [
+    {
+      "bks_value": 27100,
+      "submission_date": "2025-07-04T18:20:00",
+      "timestamp": 144000,
+      "lead_time": 1.1,
+      "team": "Sousa-PB"
+    },
+    {
+      "bks_value": 26840,
+      "submission_date": "2025-07-12T08:42:12",
+      "timestamp": 705000,
+      "lead_time": 7.44,
+      "team": "Vasco da Gama-RJ"
+    },
+    {
+      "bks_value": 26363,
+      "submission_date": "2025-07-29T16:45:09",
+      "timestamp": 2473500,
+      "lead_time": 20.13,
+      "team": "Botafogo-PB"
+    },
+    {
+      "bks_value": 26362,
+      "submission_date": "2025-07-29T18:30:55",
+      "timestamp": 2481000,
+      "lead_time": 0.05,
+      "team": "Botafogo-PB"
+    }
+  ],
+  "X-n110-k13": [
+    {
+      "bks_value": 16500,
+      "submission_date": "2025-07-04T20:15:01",
+      "timestamp": 147000,
+      "lead_time": 1.08,
+      "team": "Vasco da Gama-RJ"
+    },
+    {
+      "bks_value": 15780,
+      "submission_date": "2025-07-06T11:10:10",
+      "timestamp": 280000,
+      "lead_time": 1.49,
+      "team": "Botafogo-PB"
+    },
+    {
+      "bks_value": 15120,
+      "submission_date": "2025-07-28T21:00:00",
+      "timestamp": 2425000,
+      "lead_time": 20.69,
+      "team": "Sousa-PB"
+    },
+    {
+      "bks_value": 14971,
+      "submission_date": "2025-07-29T19:15:42",
+      "timestamp": 2481000,
+      "lead_time": 0.05,
+      "team": "Sousa-PB"
+    }
+  ]
 }
+
 
