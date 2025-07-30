@@ -6,12 +6,21 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>CVRP Leaderboard</h1>
+  <div style="text-align:center; margin-bottom: 1rem;">
+    <img src="figures/CVRP_BKS_Challenge_Icon.png" alt="CVRP Challenge Logo" style="max-width: 300px; margin-bottom: 0.5rem;" />
+    <h1 style="font-size: 1.8rem; margin: 0;">CVRPLIB Best Known Solution Challenge</h1>
+  </div>
+
+  <h2 style="text-align:center;">🏆 Leaderboard</h2>
   <p id="current-time-display" style="text-align:center; font-weight:bold;"></p>
-  <label for="instance-select">Select Instance:</label>
-  <select id="instance-select">
-    <option value="global">Global</option>
-  </select>
+  
+  <div style="text-align:center; margin-bottom: 1rem;">
+    <label for="instance-select" style="margin-right: 0.5rem;">Select Instance:</label>
+    <select id="instance-select">
+      <option value="global">Global</option>
+    </select>
+  </div>
+  
 
   <table id="leaderboard-table">
     <thead>
@@ -21,9 +30,14 @@
   </table>
 
   <script src="script.js"></script>
-  <h2 style="text-align:center;">Solution Updates</h2>
+  <h2 style="text-align:center;">📋 Solution Updates</h2>
   <div class="scroll-container">
     <ul id="updates-list"></ul>
+  </div>
+
+  <h2 style="text-align:center;">👥 Registered Teams</h2>
+  <div class="scroll-container">
+    <ul id="teams-list"></ul>
   </div>
 </body>
 

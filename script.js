@@ -122,10 +122,33 @@ async function loadLeaderboard() {
     }    
 
     updatesList.appendChild(li);
-}
+  }
 
+// Carregar teams.json e renderizar seção Teams
+fetch("teams.json")
+  .then(res => res.json())
+  .then(teamsData => {
+    const teamsList = document.getElementById("teams-list");
+    const sortedTeams = Object.entries(teamsData).sort(
+      (a, b) => new Date(b[1].registration_date) - new Date(a[1].registration_date)
+    );
 
-}
+    for (const [teamName, teamInfo] of sortedTeams) {
+      const li = document.createElement("li");
+      const membersFormatted = teamInfo.members
+        .map(m => `– ${m.name} (${m.affiliation})`)
+        .join("<br>");
+
+      li.innerHTML = `
+        <div class="team-name">${teamName}</div>
+        <div><strong>Registered:</strong> ${new Date(teamInfo.registration_date).toLocaleDateString("en-GB")}</div>
+        <div><strong>Members:</strong><br>${membersFormatted}</div>
+      `;
+      teamsList.appendChild(li);
+    }
+  });
+
+} 
 
 loadLeaderboard();
 
