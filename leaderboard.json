@@ -1,11 +1,15 @@
 {
-  "Instance1": {
-    "best_cost": 127530.4,
-    "team": "TeamA"
+  "X-n101-k25": {
+    "best_cost": 27591,
+    "team": "Vasco da Gama-RJ"
   },
-  "Instance2": {
-    "best_cost": 215903.1,
-    "team": "TeamB"
+  "X-n106-k14": {
+    "best_cost": 26362,
+    "team": "Botafogo-PB"
+  },
+  "X-n110-k13": {
+    "best_cost": 14971,
+    "team": "Sousa-PB"
   }
 }
 
