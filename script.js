@@ -109,7 +109,11 @@ async function loadLeaderboard() {
   }  
 
   // Sort by timestamp descending
-  allUpdates.sort((a, b) => b.timestamp - a.timestamp);
+  allUpdates.sort((a, b) => {
+    const dateA = new Date(a.submission_date);
+    const dateB = new Date(b.submission_date);
+    return dateB - dateA;
+  });
 
   for (const update of allUpdates) {
     const li = document.createElement("li");
