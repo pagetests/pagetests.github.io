@@ -1,0 +1,23 @@
+{
+  "Vasco da gama-RJ": {
+    "registration_date": "2025-07-30",
+    "members": [
+      { "name": "Clara Mendes", "affiliation": "Universidade Federal Fluminense" },
+      { "name": "João Henrique", "affiliation": "Universidade Federal Fluminense" }
+    ]
+  },
+  "Botafogo-PB": {
+    "registration_date": "2025-07-28",
+    "members": [
+      { "name": "Miguel Antunes", "affiliation": "Universidade da Paraíba" },
+      { "name": "Larissa Silva", "affiliation": "Universidade da Paraíba" }
+    ]
+  },
+  "Sousa-PB": {
+    "registration_date": "2025-07-27",
+    "members": [
+      { "name": "Bruno Nascimento", "affiliation": "Universidade Estadual da Paraíba" },
+      { "name": "Fernanda Lopes", "affiliation": "Universidade Estadual da Paraíba" }
+    ]
+  }
+}
