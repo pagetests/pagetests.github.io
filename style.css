@@ -33,3 +33,23 @@ th, td {
 th {
   background: #eaeaea;
 }
+
+.scroll-container {
+  max-height: 300px;
+  overflow-y: auto;
+  margin: 2rem auto;
+  width: 90%;
+  border: 1px solid #ccc;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  padding: 1rem;
+}
+
+#updates-list {
+  list-style-type: none;
+  padding-left: 0;
+  font-family: monospace;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+

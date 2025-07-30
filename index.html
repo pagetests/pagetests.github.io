@@ -7,6 +7,7 @@
 </head>
 <body>
   <h1>CVRP Leaderboard</h1>
+  <p id="current-time-display" style="text-align:center; font-weight:bold;"></p>
   <label for="instance-select">Select Instance:</label>
   <select id="instance-select">
     <option value="global">Global</option>
@@ -20,7 +21,14 @@
   </table>
 
   <script src="script.js"></script>
+  <h2 style="text-align:center;">Solution Updates</h2>
+  <div class="scroll-container">
+    <ul id="updates-list"></ul>
+  </div>
 </body>
+
+
+
 </html>
 
 

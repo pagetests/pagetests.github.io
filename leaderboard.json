@@ -1,6 +1,13 @@
 {
-  "current_time": 2485000,
+  "starting_date": "2025-07-01T07:35:22",
   "X-n101-k25": [
+    {
+      "bks_value": 28990,
+      "submission_date": "2025-07-01T07:35:22",
+      "timestamp": 0,
+      "lead_time": 0,
+      "team": "Initial solution obtained by method HGS-CVRP"
+    },
     {
       "bks_value": 28950,
       "submission_date": "2025-07-05T14:35:22",
@@ -12,7 +19,7 @@
       "bks_value": 28120,
       "submission_date": "2025-07-12T10:05:17",
       "timestamp": 712000,
-      "lead_time": 6.56,
+      "lead_time": 6.0,
       "team": "Sousa-PB"
     },
     {
@@ -25,17 +32,24 @@
   ],
   "X-n106-k14": [
     {
+      "bks_value": 27500,
+      "submission_date": "2025-07-01T07:35:22",
+      "timestamp": 0,
+      "lead_time": 0,
+      "team": "Initial solution obtained by method ILS-SP"
+    },
+    {
       "bks_value": 27100,
       "submission_date": "2025-07-04T18:20:00",
       "timestamp": 144000,
-      "lead_time": 1.1,
+      "lead_time": 1.0,
       "team": "Sousa-PB"
     },
     {
       "bks_value": 26840,
       "submission_date": "2025-07-12T08:42:12",
       "timestamp": 705000,
-      "lead_time": 7.44,
+      "lead_time": 8.0,
       "team": "Vasco da Gama-RJ"
     },
     {
@@ -55,8 +69,15 @@
   ],
   "X-n110-k13": [
     {
+      "bks_value": 16900,
+      "submission_date": "2025-07-01 07:35:22",
+      "timestamp": 0,
+      "lead_time": 0,
+      "team": "Initial solution obtained by method LKH-3"
+    },
+    {
       "bks_value": 16500,
-      "submission_date": "2025-07-04T20:15:01",
+      "submission_date": "2025-07-04 20:15:01",
       "timestamp": 147000,
       "lead_time": 1.08,
       "team": "Vasco da Gama-RJ"
@@ -72,7 +93,7 @@
       "bks_value": 15120,
       "submission_date": "2025-07-28T21:00:00",
       "timestamp": 2425000,
-      "lead_time": 20.69,
+      "lead_time": 20.00,
       "team": "Sousa-PB"
     },
     {
